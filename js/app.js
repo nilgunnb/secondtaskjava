@@ -2,15 +2,15 @@ function Chage(){
     let input_value = document.getElementById('input').value;
     let mode = input_value.slice(-3,-2);
     if (mode === "1"){
-        document.getElementById('info').innerHTML = "Seher qrupu"
+        document.getElementById('info').value.style.color = "yellow";
     }
 
     else if(mode === "2"){
-        document.getElementById('info').innerHTML = "Gunorta qrupu";
+        document.getElementById('info').value.style.color = "red";
     }
 
     else if (mode === "3"){
-        document.getElementById('info').innerHTML= "Axsam qrupu";
+        document.getElementById('info').value.style.color = "black";
     }
 
     else{
